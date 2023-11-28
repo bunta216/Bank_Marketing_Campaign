@@ -32,7 +32,7 @@ Using Pipeline and GridSearchCV with five folds we built five models:
 * Support Vector Machine (SVC)
 * Random Forest (RFC)
 * Gradient Boosting (GBC)
-* Deep Neural Network (DNN)
+
 
 ### Imbalanced data
 
