@@ -58,7 +58,6 @@ The data sets are imbalanced, with 88% no and 12% yes. Balanced data set is crea
 | SVM  | pca components: 30, C: 1, gamma: 1e-07, kernel: linear |  <ul><li>0</li><li>1</li></ul> |  <ul><li>81%</li><li>83%</li></ul> |  <ul><li>82%</li><li>81%</li></ul>  |81.82%  |
 | Random Forest Classification  | pca components: 34, estimators: 200 |  <ul><li>0</li><li>1</li></ul> |  <ul><li>83%</li><li>83%</li></ul> |  <ul><li>82%</li><li>84%</li></ul>  |82.99%  |
 | Gradient Boosting Classifier   | learning rate: 0.1, pca components: 39, estimators: 200 |  <ul><li>0</li><li>1</li></ul> |  <ul><li>83%</li><li>83%</li></ul> |  <ul><li>83%</li><li>83%</li></ul>  |82.96%  |
-| DNN  | 1 input layer, 2 hidden layers and 1 output layer |  <ul><li>0</li><li>1</li></ul> |  <ul><li>88%</li><li>83%</li></ul> |  <ul><li>81%</li><li>90%</li></ul>  |85.15%  |
 
 ### Conclusion:
 Deep Neural Network outperformed all other classifiers.
