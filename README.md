@@ -60,6 +60,6 @@ The data sets are imbalanced, with 88% no and 12% yes. Balanced data set is crea
 | Gradient Boosting Classifier   | learning rate: 0.1, pca components: 39, estimators: 200 |  <ul><li>0</li><li>1</li></ul> |  <ul><li>83%</li><li>83%</li></ul> |  <ul><li>83%</li><li>83%</li></ul>  |82.96%  |
 
 ### Conclusion:
-Deep Neural Network outperformed all other classifiers.
+Gradient Boosting Classifier outperformed all other classifiers.
 
 Balancing classes reduced accuracy but also reduced overfitting and increased recall.
