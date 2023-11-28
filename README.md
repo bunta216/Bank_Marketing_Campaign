@@ -48,7 +48,7 @@ The data sets are imbalanced, with 88% no and 12% yes. Balanced data set is crea
 | SVM  | pca components: 30, C: 1, gamma: 1e-07, kernel: linear |  <ul><li>0</li><li>1</li></ul> |  <ul><li>91%</li><li>61%</li></ul> |  <ul><li>98%</li><li>26%</li></ul>  |89.83%  |
 | Random Forest Classification  | pca components: 34, estimators: 200 |  <ul><li>0</li><li>1</li></ul> |  <ul><li>91%</li><li>58%</li></ul> |  <ul><li>97%</li><li>28%</li></ul>  |89.61%  |
 | Gradient Boosting Classifier   | learning rate: 0.1, pca components: 39, estimators: 200 |  <ul><li>0</li><li>1</li></ul> |  <ul><li>92%</li><li>55%</li></ul> |  <ul><li>96%</li><li>36%</li></ul>  |89.54%  |
-| DNN  | 1 input layer, 2 hidden layers and 1 output layer |  <ul><li>0</li><li>1</li></ul> |  <ul><li>92%</li><li>50%</li></ul> |  <ul><li>96%</li><li>34%</li></ul>  |88.73%  |
+
 
 #### Results balanced classes
 
