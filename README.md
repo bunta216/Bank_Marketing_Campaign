@@ -54,10 +54,10 @@ The data sets are imbalanced, with 88% no and 12% yes. Balanced data set is crea
 
 | Classifier | Best Parameters | | Precision | Recall | Accuracy |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| KNN  | neighbors: 5, pca components: 28 |  <ul><li>0</li><li>1</li></ul> |  <ul><li>75%</li><li>80%</li></ul> |  <ul><li>80%</li><li>75%</li></ul>  |77.60%  |
-| SVM  | pca components: 30, C: 1, gamma: 1e-07, kernel: linear |  <ul><li>0</li><li>1</li></ul> |  <ul><li>81%</li><li>83%</li></ul> |  <ul><li>82%</li><li>81%</li></ul>  |81.82%  |
-| Random Forest Classification  | pca components: 34, estimators: 200 |  <ul><li>0</li><li>1</li></ul> |  <ul><li>83%</li><li>83%</li></ul> |  <ul><li>82%</li><li>84%</li></ul>  |82.99%  |
-| Gradient Boosting Classifier   | learning rate: 0.1, pca components: 39, estimators: 200 |  <ul><li>0</li><li>1</li></ul> |  <ul><li>83%</li><li>83%</li></ul> |  <ul><li>83%</li><li>83%</li></ul>  |82.96%  |
+| KNN  | neighbors: 5, pca components: 28 |  <ul><li>0</li><li>1</li></ul> |  <ul><li>75%</li><li>80%</li></ul> |  <ul><li>80%</li><li>75%</li></ul>  |78.51%  |
+| SVM  | pca components: 30, C: 1, gamma: 1e-07, kernel: linear |  <ul><li>0</li><li>1</li></ul> |  <ul><li>81%</li><li>83%</li></ul> |  <ul><li>82%</li><li>81%</li></ul>  |82.20%  |
+| Random Forest Classification  | pca components: 34, estimators: 200 |  <ul><li>0</li><li>1</li></ul> |  <ul><li>83%</li><li>83%</li></ul> |  <ul><li>82%</li><li>84%</li></ul>  |83.36%  |
+| Gradient Boosting Classifier   | learning rate: 0.1, pca components: 39, estimators: 200 |  <ul><li>0</li><li>1</li></ul> |  <ul><li>83%</li><li>83%</li></ul> |  <ul><li>83%</li><li>83%</li></ul>  |84.50%  |
 
 ### Conclusion:
 Gradient Boosting Classifier outperformed all other classifiers.
