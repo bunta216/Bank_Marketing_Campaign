@@ -27,7 +27,7 @@ Dataset is from the UCI Machine Learning Repository. Features of this dataset in
 ![](img/process.png)
 
 
-Using Pipeline and GridSearchCV with five folds we built five models:
+Using Pipeline and GridSearchCV with five folds we built four models:
 * K-Nearest Neighbor (KNN)
 * Support Vector Machine (SVC)
 * Random Forest (RFC)
